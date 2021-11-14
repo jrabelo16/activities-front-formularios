@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h1>Cadastro</h1>
+            <div>
+                <label>
+                    Nome
+                    <input type="text" required>
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Email
+                    <input type="email" required>
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Celular
+                    <input type="number" required>
+                </label>
+            </div>
+
+            <div>
+                <label for="senha">Senha</label>
+                <input id="senha" type="password">
+            </div>
+
+            <div>
+                <label for="confirmarSenha">Confirmar Senha</label>
+                <input id="confirmarSenha" type="password">
+            </div>
+
+            <div>
+                <label>
+                    Estado
+                    <select name="estado" id="estado">
+                        <option value="parana">Paraná</option>
+                        <option value="minas gerais">Minas Gerais</option>
+                        <option value="amazonas">Amazonas</option>
+                        <option value="acre">Acre</option>
+                    </select>
+                </label>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+
+</html>
